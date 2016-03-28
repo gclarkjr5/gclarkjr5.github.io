@@ -4,7 +4,7 @@ var app = angular.module('myApp', []);
 
 app.controller('dataCtrl', function($scope){	
 	
-Papa.parse("NCAAtrial.csv", {
+Papa.parse("NCAA trial.csv", {
 download: true,
 header: true,
 dynamicTyping: true,
