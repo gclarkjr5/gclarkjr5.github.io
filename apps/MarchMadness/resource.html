@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+
+  
+  <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<script type="text/javascript" src="js\PapaParse-4.1.2\papaparse.min.js"></script>
+<script>
+	$(document).ready(function() {
+		//$.get( "https://march6th.com/apps/owncloud/public.php?service=files&t=8f7434c19d76a1492cf6d8e16b9a121e&download", function( data ) {
+		  
+		  //alert(data);
+		//});
+		Papa.parse("https://march6th.com/apps/owncloud/public.php?service=files&t=8f7434c19d76a1492cf6d8e16b9a121e&download", {
+            download: true,
+            header: true,
+            complete: function (results, file) {
+				console.log(results);
+            }});
+	})
+
+</script>
+</body>
+</html>
