@@ -18,6 +18,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
-  }
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-creative.git"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "r-script": "0.0.3",
+    "socket.io": "^1.4.8"
+  },
+  "description": "[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).",
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
 }
