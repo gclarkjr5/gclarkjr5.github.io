@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Arsenal",
+        "url": "../img/Background/arsenal-fc-logo.jpg"
+    }, {
+        "name": "Barcelona",
+        "url": "../img/Background/barcelona-fc-logo.jpg"
+    },
+    {
+        "name": "Cam Newton",
+        "url": "../img/Background/cam-newton.jpg"
+    },
+    {
+        "name": "Lionel Messi",
+        "url": "../img/Background/lionel-messi-argentina.jpg"
+    },
+    {
+        "name": "Paul Pogba",
+        "url": "../img/Background/paul-pogba.jpg"
+    },
+    {
+        "name": "Ronaldinho",
+        "url": "../img/Background/ronaldinho.jpg"
+    }
+]

@@ -36,8 +36,9 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-12">
                         <p class="roboto">Welcome to my universe!</p>
-                        <h1>This is<br /><span class="bold">Gary Clark</span></h1>
-                        <p class="roboto">Thank you for visiting my webpage. Feel free to browse around and learn more about me, my work, and my passions. <a href="gclarkjr5.github.io" class="external">gclarkjr5.github.io</a></p>
+                        <h1><span class="bold">Gary Clark</span></h1>
+                        <p class="roboto">Thank you for visiting my webpage. Feel free to browse around and learn more about me, my experiences, and my passions.</p>
+                        <p><a href="gclarkjr5.github.io" class="external">gclarkjr5.github.io</a></p>
                     </div>
                 </div>
             </div>
@@ -189,7 +190,7 @@
             <div class="row no-space">
                 <div class="col-sm-4 col-md-3">
                     <div class="box">
-                        <a href="#" title=""><img src="img/portfolio-1.jpg" alt="" class="img-responsive"></a>
+                        <a href="MarchMadness/index.html" title=""><img src="MarchMadness/img/2016_march_madness_portfolio.png" alt="" class="img-responsive"></a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
@@ -432,7 +433,14 @@
         ga('create', 'UA-XXXXX-X');
         ga('send', 'pageview');
     </script>
-    <!--Socket.io script -->
+    <!--Custom.js script-->
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            backgroundImage();
+        });
+    </script>
+    <!--Socket.io script-->
     <script src="/socket.io/socket.io.js"></script>
     <script>
         var socket = io();
