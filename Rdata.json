@@ -1,0 +1,1923 @@
+[
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 41.56,
+        "percent_per_combo.amount_as_victim": 93.2,
+        "percent_as_victim": 44.59
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.26,
+        "percent_per_combo.amount_as_victim": 9.39,
+        "percent_as_victim": 2.81
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.19,
+        "percent_per_combo.amount_as_victim": 25,
+        "percent_as_victim": 0.75
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.03,
+        "percent_per_combo.amount_as_victim": 13.55,
+        "percent_as_victim": 51.85
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.16,
+        "percent_per_combo.amount_as_victim": 0.35,
+        "percent_as_victim": 44.59
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.97,
+        "percent_per_combo.amount_as_victim": 70.17,
+        "percent_as_victim": 2.81
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.02,
+        "percent_per_combo.amount_as_victim": 2.08,
+        "percent_as_victim": 0.75
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.79,
+        "percent_per_combo.amount_as_victim": 1.53,
+        "percent_as_victim": 51.85
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.48,
+        "percent_per_combo.amount_as_victim": 1.08,
+        "percent_as_victim": 44.59
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.05,
+        "percent_per_combo.amount_as_victim": 1.66,
+        "percent_as_victim": 2.81
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.28,
+        "percent_per_combo.amount_as_victim": 37.5,
+        "percent_as_victim": 0.75
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.84,
+        "percent_per_combo.amount_as_victim": 1.62,
+        "percent_as_victim": 51.85
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 2.39,
+        "percent_per_combo.amount_as_victim": 5.37,
+        "percent_as_victim": 44.59
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.53,
+        "percent_per_combo.amount_as_victim": 18.78,
+        "percent_as_victim": 2.81
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.26,
+        "percent_per_combo.amount_as_victim": 35.42,
+        "percent_as_victim": 0.75
+    },
+    {
+        "Year": "1999-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 43.19,
+        "percent_per_combo.amount_as_victim": 83.3,
+        "percent_as_victim": 51.85
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 41.8,
+        "percent_per_combo.amount_as_victim": 93.03,
+        "percent_as_victim": 44.93
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.34,
+        "percent_per_combo.amount_as_victim": 13.02,
+        "percent_as_victim": 2.59
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.29,
+        "percent_per_combo.amount_as_victim": 28.79,
+        "percent_as_victim": 1.01
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 6.4,
+        "percent_per_combo.amount_as_victim": 12.44,
+        "percent_as_victim": 51.46
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.08,
+        "percent_per_combo.amount_as_victim": 0.17,
+        "percent_as_victim": 44.93
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.58,
+        "percent_per_combo.amount_as_victim": 60.95,
+        "percent_as_victim": 2.59
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.02,
+        "percent_per_combo.amount_as_victim": 1.52,
+        "percent_as_victim": 1.01
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.61,
+        "percent_per_combo.amount_as_victim": 1.19,
+        "percent_as_victim": 51.46
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.32,
+        "percent_per_combo.amount_as_victim": 0.72,
+        "percent_as_victim": 44.93
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.02,
+        "percent_per_combo.amount_as_victim": 0.59,
+        "percent_as_victim": 2.59
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.25,
+        "percent_per_combo.amount_as_victim": 24.24,
+        "percent_as_victim": 1.01
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.54,
+        "percent_per_combo.amount_as_victim": 1.04,
+        "percent_as_victim": 51.46
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 2.73,
+        "percent_per_combo.amount_as_victim": 6.08,
+        "percent_as_victim": 44.93
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.66,
+        "percent_per_combo.amount_as_victim": 25.44,
+        "percent_as_victim": 2.59
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.46,
+        "percent_per_combo.amount_as_victim": 45.45,
+        "percent_as_victim": 1.01
+    },
+    {
+        "Year": "2000-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 43.91,
+        "percent_per_combo.amount_as_victim": 85.32,
+        "percent_as_victim": 51.46
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 40.1,
+        "percent_per_combo.amount_as_victim": 90.77,
+        "percent_as_victim": 44.18
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.34,
+        "percent_per_combo.amount_as_victim": 13.41,
+        "percent_as_victim": 2.56
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.29,
+        "percent_per_combo.amount_as_victim": 25.97,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 6.8,
+        "percent_per_combo.amount_as_victim": 13.04,
+        "percent_as_victim": 52.15
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.14,
+        "percent_per_combo.amount_as_victim": 0.32,
+        "percent_as_victim": 44.18
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.4,
+        "percent_per_combo.amount_as_victim": 54.75,
+        "percent_as_victim": 2.56
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.03,
+        "percent_per_combo.amount_as_victim": 2.6,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.69,
+        "percent_per_combo.amount_as_victim": 1.32,
+        "percent_as_victim": 52.15
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 1.36,
+        "percent_per_combo.amount_as_victim": 3.08,
+        "percent_as_victim": 44.18
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.07,
+        "percent_per_combo.amount_as_victim": 2.79,
+        "percent_as_victim": 2.56
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.34,
+        "percent_per_combo.amount_as_victim": 31.17,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.89,
+        "percent_per_combo.amount_as_victim": 1.7,
+        "percent_as_victim": 52.15
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 2.58,
+        "percent_per_combo.amount_as_victim": 5.83,
+        "percent_as_victim": 44.18
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.74,
+        "percent_per_combo.amount_as_victim": 29.05,
+        "percent_as_victim": 2.56
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.44,
+        "percent_per_combo.amount_as_victim": 40.26,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2001-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 43.78,
+        "percent_per_combo.amount_as_victim": 83.95,
+        "percent_as_victim": 52.15
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 40.71,
+        "percent_per_combo.amount_as_victim": 90.91,
+        "percent_as_victim": 44.78
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.4,
+        "percent_per_combo.amount_as_victim": 14.58,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.33,
+        "percent_per_combo.amount_as_victim": 24.47,
+        "percent_as_victim": 1.34
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 6.9,
+        "percent_per_combo.amount_as_victim": 13.48,
+        "percent_as_victim": 51.13
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.16,
+        "percent_per_combo.amount_as_victim": 0.35,
+        "percent_as_victim": 44.78
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.56,
+        "percent_per_combo.amount_as_victim": 56.77,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.03,
+        "percent_per_combo.amount_as_victim": 2.13,
+        "percent_as_victim": 1.34
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.83,
+        "percent_per_combo.amount_as_victim": 1.62,
+        "percent_as_victim": 51.13
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.67,
+        "percent_per_combo.amount_as_victim": 1.5,
+        "percent_as_victim": 44.78
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.06,
+        "percent_per_combo.amount_as_victim": 2.08,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.54,
+        "percent_per_combo.amount_as_victim": 40.43,
+        "percent_as_victim": 1.34
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.59,
+        "percent_per_combo.amount_as_victim": 1.14,
+        "percent_as_victim": 51.13
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.24,
+        "percent_per_combo.amount_as_victim": 7.24,
+        "percent_as_victim": 44.78
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.73,
+        "percent_per_combo.amount_as_victim": 26.56,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.44,
+        "percent_per_combo.amount_as_victim": 32.98,
+        "percent_as_victim": 1.34
+    },
+    {
+        "Year": "2002-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 42.83,
+        "percent_per_combo.amount_as_victim": 83.75,
+        "percent_as_victim": 51.13
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 39.55,
+        "percent_per_combo.amount_as_victim": 90.77,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.33,
+        "percent_per_combo.amount_as_victim": 12.99,
+        "percent_as_victim": 2.51
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.21,
+        "percent_per_combo.amount_as_victim": 22.06,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.42,
+        "percent_per_combo.amount_as_victim": 14.01,
+        "percent_as_victim": 52.95
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.1,
+        "percent_per_combo.amount_as_victim": 0.23,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.56,
+        "percent_per_combo.amount_as_victim": 62.15,
+        "percent_as_victim": 2.51
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.01,
+        "percent_per_combo.amount_as_victim": 1.47,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.53,
+        "percent_per_combo.amount_as_victim": 0.99,
+        "percent_as_victim": 52.95
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.68,
+        "percent_per_combo.amount_as_victim": 1.57,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.03,
+        "percent_per_combo.amount_as_victim": 1.13,
+        "percent_as_victim": 2.51
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.26,
+        "percent_per_combo.amount_as_victim": 26.47,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.64,
+        "percent_per_combo.amount_as_victim": 1.21,
+        "percent_as_victim": 52.95
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.24,
+        "percent_per_combo.amount_as_victim": 7.43,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.6,
+        "percent_per_combo.amount_as_victim": 23.73,
+        "percent_as_victim": 2.51
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.48,
+        "percent_per_combo.amount_as_victim": 50,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2004-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 44.37,
+        "percent_per_combo.amount_as_victim": 83.79,
+        "percent_as_victim": 52.95
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 40.62,
+        "percent_per_combo.amount_as_victim": 90.73,
+        "percent_as_victim": 44.77
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.57,
+        "percent_per_combo.amount_as_victim": 20.9,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.37,
+        "percent_per_combo.amount_as_victim": 38.03,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.02,
+        "percent_per_combo.amount_as_victim": 13.63,
+        "percent_as_victim": 51.52
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.1,
+        "percent_per_combo.amount_as_victim": 0.21,
+        "percent_as_victim": 44.77
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.47,
+        "percent_per_combo.amount_as_victim": 53.73,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0,
+        "percent_per_combo.amount_as_victim": 0,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.68,
+        "percent_per_combo.amount_as_victim": 1.32,
+        "percent_as_victim": 51.52
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.93,
+        "percent_per_combo.amount_as_victim": 2.07,
+        "percent_as_victim": 44.77
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.1,
+        "percent_per_combo.amount_as_victim": 3.48,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.31,
+        "percent_per_combo.amount_as_victim": 32.39,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.94,
+        "percent_per_combo.amount_as_victim": 1.82,
+        "percent_as_victim": 51.52
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.13,
+        "percent_per_combo.amount_as_victim": 6.99,
+        "percent_as_victim": 44.77
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.6,
+        "percent_per_combo.amount_as_victim": 21.89,
+        "percent_as_victim": 2.74
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.29,
+        "percent_per_combo.amount_as_victim": 29.58,
+        "percent_as_victim": 0.97
+    },
+    {
+        "Year": "2005-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 42.88,
+        "percent_per_combo.amount_as_victim": 83.22,
+        "percent_as_victim": 51.52
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 41.65,
+        "percent_per_combo.amount_as_victim": 91.86,
+        "percent_as_victim": 45.34
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.38,
+        "percent_per_combo.amount_as_victim": 15.05,
+        "percent_as_victim": 2.55
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.37,
+        "percent_per_combo.amount_as_victim": 31.03,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.87,
+        "percent_per_combo.amount_as_victim": 15.45,
+        "percent_as_victim": 50.91
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.16,
+        "percent_per_combo.amount_as_victim": 0.36,
+        "percent_as_victim": 45.34
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.33,
+        "percent_per_combo.amount_as_victim": 52.15,
+        "percent_as_victim": 2.55
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.05,
+        "percent_per_combo.amount_as_victim": 4.6,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.73,
+        "percent_per_combo.amount_as_victim": 1.43,
+        "percent_as_victim": 50.91
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.67,
+        "percent_per_combo.amount_as_victim": 1.48,
+        "percent_as_victim": 45.34
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.1,
+        "percent_per_combo.amount_as_victim": 3.76,
+        "percent_as_victim": 2.55
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.36,
+        "percent_per_combo.amount_as_victim": 29.89,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.78,
+        "percent_per_combo.amount_as_victim": 1.54,
+        "percent_as_victim": 50.91
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 2.86,
+        "percent_per_combo.amount_as_victim": 6.3,
+        "percent_as_victim": 45.34
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.74,
+        "percent_per_combo.amount_as_victim": 29.03,
+        "percent_as_victim": 2.55
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.41,
+        "percent_per_combo.amount_as_victim": 34.48,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2006-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 41.54,
+        "percent_per_combo.amount_as_victim": 81.59,
+        "percent_as_victim": 50.91
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 41.09,
+        "percent_per_combo.amount_as_victim": 90.19,
+        "percent_as_victim": 45.57
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.35,
+        "percent_per_combo.amount_as_victim": 14.45,
+        "percent_as_victim": 2.45
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.42,
+        "percent_per_combo.amount_as_victim": 34.09,
+        "percent_as_victim": 1.24
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 8.01,
+        "percent_per_combo.amount_as_victim": 15.78,
+        "percent_as_victim": 50.74
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.16,
+        "percent_per_combo.amount_as_victim": 0.34,
+        "percent_as_victim": 45.57
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.34,
+        "percent_per_combo.amount_as_victim": 54.91,
+        "percent_as_victim": 2.45
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.04,
+        "percent_per_combo.amount_as_victim": 3.41,
+        "percent_as_victim": 1.24
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.72,
+        "percent_per_combo.amount_as_victim": 1.42,
+        "percent_as_victim": 50.74
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.85,
+        "percent_per_combo.amount_as_victim": 1.86,
+        "percent_as_victim": 45.57
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.04,
+        "percent_per_combo.amount_as_victim": 1.73,
+        "percent_as_victim": 2.45
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.34,
+        "percent_per_combo.amount_as_victim": 27.27,
+        "percent_as_victim": 1.24
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.74,
+        "percent_per_combo.amount_as_victim": 1.45,
+        "percent_as_victim": 50.74
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.47,
+        "percent_per_combo.amount_as_victim": 7.61,
+        "percent_as_victim": 45.57
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.71,
+        "percent_per_combo.amount_as_victim": 28.9,
+        "percent_as_victim": 2.45
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.44,
+        "percent_per_combo.amount_as_victim": 35.23,
+        "percent_as_victim": 1.24
+    },
+    {
+        "Year": "2007-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 41.28,
+        "percent_per_combo.amount_as_victim": 81.35,
+        "percent_as_victim": 50.74
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 39.22,
+        "percent_per_combo.amount_as_victim": 90.01,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.42,
+        "percent_per_combo.amount_as_victim": 16.76,
+        "percent_as_victim": 2.49
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.42,
+        "percent_per_combo.amount_as_victim": 29,
+        "percent_as_victim": 1.44
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.26,
+        "percent_per_combo.amount_as_victim": 13.83,
+        "percent_as_victim": 52.49
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.13,
+        "percent_per_combo.amount_as_victim": 0.3,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.3,
+        "percent_per_combo.amount_as_victim": 52.02,
+        "percent_as_victim": 2.49
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.04,
+        "percent_per_combo.amount_as_victim": 3,
+        "percent_as_victim": 1.44
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.63,
+        "percent_per_combo.amount_as_victim": 1.21,
+        "percent_as_victim": 52.49
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.91,
+        "percent_per_combo.amount_as_victim": 2.08,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.03,
+        "percent_per_combo.amount_as_victim": 1.16,
+        "percent_as_victim": 2.49
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.45,
+        "percent_per_combo.amount_as_victim": 31,
+        "percent_as_victim": 1.44
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.85,
+        "percent_per_combo.amount_as_victim": 1.62,
+        "percent_as_victim": 52.49
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.31,
+        "percent_per_combo.amount_as_victim": 7.61,
+        "percent_as_victim": 43.57
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.75,
+        "percent_per_combo.amount_as_victim": 30.06,
+        "percent_as_victim": 2.49
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.53,
+        "percent_per_combo.amount_as_victim": 37,
+        "percent_as_victim": 1.44
+    },
+    {
+        "Year": "2008-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 43.75,
+        "percent_per_combo.amount_as_victim": 83.34,
+        "percent_as_victim": 52.49
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 39.27,
+        "percent_per_combo.amount_as_victim": 90.83,
+        "percent_as_victim": 43.24
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.39,
+        "percent_per_combo.amount_as_victim": 14.36,
+        "percent_as_victim": 2.73
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.33,
+        "percent_per_combo.amount_as_victim": 33.85,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 6.85,
+        "percent_per_combo.amount_as_victim": 12.91,
+        "percent_as_victim": 53.05
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.2,
+        "percent_per_combo.amount_as_victim": 0.45,
+        "percent_as_victim": 43.24
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.57,
+        "percent_per_combo.amount_as_victim": 57.46,
+        "percent_as_victim": 2.73
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.02,
+        "percent_per_combo.amount_as_victim": 1.54,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.6,
+        "percent_per_combo.amount_as_victim": 1.14,
+        "percent_as_victim": 53.05
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.62,
+        "percent_per_combo.amount_as_victim": 1.43,
+        "percent_as_victim": 43.24
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.02,
+        "percent_per_combo.amount_as_victim": 0.55,
+        "percent_as_victim": 2.73
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.23,
+        "percent_per_combo.amount_as_victim": 23.08,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.92,
+        "percent_per_combo.amount_as_victim": 1.73,
+        "percent_as_victim": 53.05
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.15,
+        "percent_per_combo.amount_as_victim": 7.29,
+        "percent_as_victim": 43.24
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.75,
+        "percent_per_combo.amount_as_victim": 27.62,
+        "percent_as_victim": 2.73
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.41,
+        "percent_per_combo.amount_as_victim": 41.54,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2009-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 44.68,
+        "percent_per_combo.amount_as_victim": 84.22,
+        "percent_as_victim": 53.05
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 39.13,
+        "percent_per_combo.amount_as_victim": 90.4,
+        "percent_as_victim": 43.28
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.48,
+        "percent_per_combo.amount_as_victim": 16.76,
+        "percent_as_victim": 2.85
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.22,
+        "percent_per_combo.amount_as_victim": 24.14,
+        "percent_as_victim": 0.92
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.11,
+        "percent_per_combo.amount_as_victim": 13.44,
+        "percent_as_victim": 52.94
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.11,
+        "percent_per_combo.amount_as_victim": 0.26,
+        "percent_as_victim": 43.28
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.56,
+        "percent_per_combo.amount_as_victim": 54.75,
+        "percent_as_victim": 2.85
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.03,
+        "percent_per_combo.amount_as_victim": 3.45,
+        "percent_as_victim": 0.92
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.64,
+        "percent_per_combo.amount_as_victim": 1.2,
+        "percent_as_victim": 52.94
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.57,
+        "percent_per_combo.amount_as_victim": 1.32,
+        "percent_as_victim": 43.28
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.06,
+        "percent_per_combo.amount_as_victim": 2.23,
+        "percent_as_victim": 2.85
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.35,
+        "percent_per_combo.amount_as_victim": 37.93,
+        "percent_as_victim": 0.92
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 1,
+        "percent_per_combo.amount_as_victim": 1.89,
+        "percent_as_victim": 52.94
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.47,
+        "percent_per_combo.amount_as_victim": 8.01,
+        "percent_as_victim": 43.28
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.75,
+        "percent_per_combo.amount_as_victim": 26.26,
+        "percent_as_victim": 2.85
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.32,
+        "percent_per_combo.amount_as_victim": 34.48,
+        "percent_as_victim": 0.92
+    },
+    {
+        "Year": "2010-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 44.19,
+        "percent_per_combo.amount_as_victim": 83.47,
+        "percent_as_victim": 52.94
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 39.91,
+        "percent_per_combo.amount_as_victim": 90.8,
+        "percent_as_victim": 43.96
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.59,
+        "percent_per_combo.amount_as_victim": 20,
+        "percent_as_victim": 2.94
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.44,
+        "percent_per_combo.amount_as_victim": 32.14,
+        "percent_as_victim": 1.37
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.31,
+        "percent_per_combo.amount_as_victim": 14.12,
+        "percent_as_victim": 51.74
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.15,
+        "percent_per_combo.amount_as_victim": 0.33,
+        "percent_as_victim": 43.96
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.61,
+        "percent_per_combo.amount_as_victim": 55,
+        "percent_as_victim": 2.94
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.05,
+        "percent_per_combo.amount_as_victim": 3.57,
+        "percent_as_victim": 1.37
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.54,
+        "percent_per_combo.amount_as_victim": 1.04,
+        "percent_as_victim": 51.74
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.75,
+        "percent_per_combo.amount_as_victim": 1.71,
+        "percent_as_victim": 43.96
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0,
+        "percent_per_combo.amount_as_victim": 0,
+        "percent_as_victim": 2.94
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.29,
+        "percent_per_combo.amount_as_victim": 21.43,
+        "percent_as_victim": 1.37
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.99,
+        "percent_per_combo.amount_as_victim": 1.92,
+        "percent_as_victim": 51.74
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.15,
+        "percent_per_combo.amount_as_victim": 7.16,
+        "percent_as_victim": 43.96
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.73,
+        "percent_per_combo.amount_as_victim": 25,
+        "percent_as_victim": 2.94
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.59,
+        "percent_per_combo.amount_as_victim": 42.86,
+        "percent_as_victim": 1.37
+    },
+    {
+        "Year": "2011-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 42.9,
+        "percent_per_combo.amount_as_victim": 82.91,
+        "percent_as_victim": 51.74
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 40.08,
+        "percent_per_combo.amount_as_victim": 91.09,
+        "percent_as_victim": 44
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.6,
+        "percent_per_combo.amount_as_victim": 19.67,
+        "percent_as_victim": 3.04
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.28,
+        "percent_per_combo.amount_as_victim": 28.81,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.16,
+        "percent_per_combo.amount_as_victim": 13.78,
+        "percent_as_victim": 51.98
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.2,
+        "percent_per_combo.amount_as_victim": 0.45,
+        "percent_as_victim": 44
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.71,
+        "percent_per_combo.amount_as_victim": 56.28,
+        "percent_as_victim": 3.04
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.02,
+        "percent_per_combo.amount_as_victim": 1.69,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.6,
+        "percent_per_combo.amount_as_victim": 1.15,
+        "percent_as_victim": 51.98
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.52,
+        "percent_per_combo.amount_as_victim": 1.17,
+        "percent_as_victim": 44
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.03,
+        "percent_per_combo.amount_as_victim": 1.09,
+        "percent_as_victim": 3.04
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.25,
+        "percent_per_combo.amount_as_victim": 25.42,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.78,
+        "percent_per_combo.amount_as_victim": 1.5,
+        "percent_as_victim": 51.98
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.21,
+        "percent_per_combo.amount_as_victim": 7.29,
+        "percent_as_victim": 44
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.7,
+        "percent_per_combo.amount_as_victim": 22.95,
+        "percent_as_victim": 3.04
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.43,
+        "percent_per_combo.amount_as_victim": 44.07,
+        "percent_as_victim": 0.98
+    },
+    {
+        "Year": "2012-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 43.44,
+        "percent_per_combo.amount_as_victim": 83.57,
+        "percent_as_victim": 51.98
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 39.23,
+        "percent_per_combo.amount_as_victim": 90.12,
+        "percent_as_victim": 43.53
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.47,
+        "percent_per_combo.amount_as_victim": 16.98,
+        "percent_as_victim": 2.78
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.3,
+        "percent_per_combo.amount_as_victim": 25,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.15,
+        "percent_per_combo.amount_as_victim": 13.61,
+        "percent_as_victim": 52.51
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.35,
+        "percent_per_combo.amount_as_victim": 0.8,
+        "percent_as_victim": 43.53
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.68,
+        "percent_per_combo.amount_as_victim": 60.38,
+        "percent_as_victim": 2.78
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.05,
+        "percent_per_combo.amount_as_victim": 4.41,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.86,
+        "percent_per_combo.amount_as_victim": 1.63,
+        "percent_as_victim": 52.51
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.65,
+        "percent_per_combo.amount_as_victim": 1.49,
+        "percent_as_victim": 43.53
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.07,
+        "percent_per_combo.amount_as_victim": 2.52,
+        "percent_as_victim": 2.78
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.4,
+        "percent_per_combo.amount_as_victim": 33.82,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.66,
+        "percent_per_combo.amount_as_victim": 1.26,
+        "percent_as_victim": 52.51
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.3,
+        "percent_per_combo.amount_as_victim": 7.59,
+        "percent_as_victim": 43.53
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.56,
+        "percent_per_combo.amount_as_victim": 20.13,
+        "percent_as_victim": 2.78
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.44,
+        "percent_per_combo.amount_as_victim": 36.76,
+        "percent_as_victim": 1.19
+    },
+    {
+        "Year": "2013-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 43.84,
+        "percent_per_combo.amount_as_victim": 83.49,
+        "percent_as_victim": 52.51
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Black",
+        "percent_per_combo": 38.66,
+        "percent_per_combo.amount_as_victim": 89.96,
+        "percent_as_victim": 42.98
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.44,
+        "percent_per_combo.amount_as_victim": 14.88,
+        "percent_as_victim": 2.95
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.3,
+        "percent_per_combo.amount_as_victim": 26.98,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Black",
+        "Victim.Category": "White",
+        "percent_per_combo": 7.82,
+        "percent_per_combo.amount_as_victim": 14.76,
+        "percent_as_victim": 52.97
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.26,
+        "percent_per_combo.amount_as_victim": 0.61,
+        "percent_as_victim": 42.98
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Other",
+        "percent_per_combo": 1.63,
+        "percent_per_combo.amount_as_victim": 55.36,
+        "percent_as_victim": 2.95
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.05,
+        "percent_per_combo.amount_as_victim": 4.76,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Other",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.61,
+        "percent_per_combo.amount_as_victim": 1.16,
+        "percent_as_victim": 52.97
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Black",
+        "percent_per_combo": 0.77,
+        "percent_per_combo.amount_as_victim": 1.8,
+        "percent_as_victim": 42.98
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.05,
+        "percent_per_combo.amount_as_victim": 1.79,
+        "percent_as_victim": 2.95
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.16,
+        "percent_per_combo.amount_as_victim": 14.29,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "Unknown",
+        "Victim.Category": "White",
+        "percent_per_combo": 0.91,
+        "percent_per_combo.amount_as_victim": 1.72,
+        "percent_as_victim": 52.97
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Black",
+        "percent_per_combo": 3.28,
+        "percent_per_combo.amount_as_victim": 7.63,
+        "percent_as_victim": 42.98
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Other",
+        "percent_per_combo": 0.82,
+        "percent_per_combo.amount_as_victim": 27.98,
+        "percent_as_victim": 2.95
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "Unknown",
+        "percent_per_combo": 0.6,
+        "percent_per_combo.amount_as_victim": 53.97,
+        "percent_as_victim": 1.1
+    },
+    {
+        "Year": "2014-01-01",
+        "Offender.Category": "White",
+        "Victim.Category": "White",
+        "percent_per_combo": 43.63,
+        "percent_per_combo.amount_as_victim": 82.36,
+        "percent_as_victim": 52.97
+    }
+]
+
