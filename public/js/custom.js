@@ -1,9 +1,7 @@
 function backgroundImage() {
-    var hours = new Date().getHours();
-    var index = Math.floor(hours / 4);
-    //    alert(index);
-    $.getJSON("../img/Background/background.json", function (data) {
-        var imageUrl = data[index - 1].url;
+    $.getJSON("public/img/Background/background.json", function (data) {
+        var index = Math.floor(Math.random() * data.length);
+        var imageUrl = data[index].url;
         $('.intro.image-background').css({
             'background': 'url(' + imageUrl + ') center center no-repeat',
             //            '-webkit-background-size': 'cover',
@@ -13,10 +11,9 @@ function backgroundImage() {
         });
     });
     setInterval(function () {
-        var hours = new Date().getHours();
-        var index = Math.floor(hours / 4);
-        $.getJSON("../img/Background/background.json", function (data) {
-            var imageUrl = data[index - 1].url;
+        $.getJSON("public/img/Background/background.json", function (data) {
+            var index = Math.floor(Math.random() * data.length);
+            var imageUrl = data[index].url;
             $('.intro.image-background').css({
                 'background': 'url(' + imageUrl + ') center center no-repeat',
                 //            '-webkit-background-size': 'cover',

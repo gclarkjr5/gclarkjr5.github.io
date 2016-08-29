@@ -4,6 +4,16 @@ var http = require('http');
 var server = http.createServer(app);
 var port = process.env.PORT || 5555;
 
+// Serving up Static files for home page and March Madness separately
+app.use('/public', express.static(__dirname + '/public'));
+app.use('/MarchMadness', express.static(__dirname + '/MarchMadness'));
+///////////
+
+
+app.get('/', function(req, res){
+    res.sendfile('index.html');
+});
+
 server.listen(port, function(){
     console.log("Running on port " + port);
 });
@@ -18,8 +28,4 @@ io.on("connection", function(socket){
     socket.on("error", function(error){
         console.log(error);
     });
-});
-
-app.get('/', function(req, res){
-    res.sendfile('index.html');
 });
