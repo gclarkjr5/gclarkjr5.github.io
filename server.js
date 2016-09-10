@@ -14,13 +14,6 @@ app.get('/', function (req, res) {
     res.sendfile('index.html');
 });
 
-//Need to route to highcharts page, NOT WORKING///
-var router = express.Router();
-router.route('/')
-    .get(function(req, res){
-    res.send("Highcharts/hcharts.html");
-});
-//////////////////
 
 server.listen(port, function () {
     console.log("Running on port " + port);
