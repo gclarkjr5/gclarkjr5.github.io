@@ -1,29 +1,29 @@
-function rateSameRace() {
+function rateOthers() {
     $.getJSON("../Rdata.json", function (data) {
         var yearGroup = _.groupBy(data, "Year")
-        var races = _.allKeys(_.groupBy(data, "Offender.Category"));
-        var series = _.map(races, function (race) {
-            var sameGrp_yr = _.map(yearGroup, function (value, key) {
-                var sameGrp = _.where(value, {
-                    "Offender.Category": race,
-                    "Victim.Category": race
+        var offenderRaces = _.allKeys(_.groupBy(data, "Offender.Category"));
+        var victimRaces = _.allKeys(_.groupBy(data, "Victim.Category"));
+        var series = _.map(yearGroup, function (value, key) {
+            var a = _.each(offenderRaces, function (offRace) {
+                var b = _.each(victimRaces, function (vicRace) {
+                    var m = _.map(value, function (v, k) {
+                        var need = _.where(value, {
+                            "Offender.Category": offRace,
+                            "Victim.Category": vicRace
+                        });
+                    });
+//                    alert(JSON.stringify(m, null, 2))
+
+
                 });
-                return sameGrp
-                    //                alert(JSON.stringify(c, null, 2))
             });
-            return {
-                "name": race + " % of Homicide Victims",
-                "data": _.map(_.flatten(sameGrp_yr), function (x) {
-                    return x.percent_as_victim
-                }),
-                "type": "spline"
-            }
         });
+//        alert(JSON.stringify(series, null, 2))
 
 
         var chartOptions = {
             title: {
-                text: 'Yearly Rate where that Race was the Victim of Homicide (regardless of the Offender Race)',
+                text: 'Yearly Rate where the Victim and Offender are of the same Race',
                 x: -20 //center
             },
             subtitle: {
@@ -52,9 +52,9 @@ function rateSameRace() {
                 align: 'right',
                 verticalAlign: 'middle',
                 borderWidth: 0
-            },
-            series: series
+            }
+            //            series: series
         };
-        $('#container').highcharts(chartOptions);
+        $('#container1').highcharts(chartOptions);
     });
 };

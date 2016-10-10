@@ -1,13 +1,23 @@
-/* your styles go here */
-@media (min-width: 1200px) {
-  .container {
-    width: 1250px;
-/*    width: 1170px;*/
-  }
+    /* your styles go here */
 
-.col-md-6 .img-responsive {
-    -ms-transform: rotate(90deg);  /*IE 9*/ 
-    -webkit-transform: rotate(90deg);  /*Chrome, Safari, Opera*/ 
-    transform: rotate(90deg);
-    margin-top: 60px;
-}
+@media (min-width: 1200px) {
+    .container {
+        width: 1250px;
+        /*    width: 1170px;*/
+    }
+    .col-md-6 .img-responsive {
+        -ms-transform: rotate(90deg);
+        /*IE 9*/
+        -webkit-transform: rotate(90deg);
+        /*Chrome, Safari, Opera*/
+        transform: rotate(90deg);
+        margin-top: 60px;
+    }
+    .btn-lg {
+        background-color: transparent;
+        align-content: center;
+    }
+    #resume .col-md-12 > .row {
+        text-align: center;
+        padding: 20px;
+    }
