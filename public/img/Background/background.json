@@ -1,25 +1,25 @@
 [
     {
         "name": "Arsenal",
-        "url": "public/img/Background/arsenal-fc-logo.jpg"
+        "url": "./public/img/Background/arsenal-fc-logo.jpg"
     }, {
         "name": "Barcelona",
-        "url": "public/img/Background/barcelona-fc-logo.jpg"
+        "url": "./public/img/Background/barcelona-fc-logo.jpg"
     },
     {
         "name": "Cam Newton",
-        "url": "public/img/Background/cam-newton.jpg"
+        "url": "./public/img/Background/cam-newton.jpg"
     },
     {
         "name": "Lionel Messi",
-        "url": "public/img/Background/lionel-messi-argentina.jpg"
+        "url": "./public/img/Background/lionel-messi-argentina.jpg"
     },
     {
         "name": "Paul Pogba",
-        "url": "public/img/Background/paul-pogba.jpg"
+        "url": "./public/img/Background/paul-pogba.jpg"
     },
     {
         "name": "Ronaldinho",
-        "url": "public/img/Background/ronaldinho.jpg"
+        "url": "./public/img/Background/ronaldinho.jpg"
     }
 ]

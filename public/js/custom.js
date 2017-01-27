@@ -1,5 +1,5 @@
 function backgroundImage() {
-    $.getJSON("public/img/Background/background.json", function (data) {
+    $.getJSON("./public/img/Background/background.json", function (data) {
         var index = Math.floor(Math.random() * data.length);
         var imageUrl = data[index].url;
         $('.intro.image-background').css({
@@ -11,7 +11,7 @@ function backgroundImage() {
         });
     });
     setInterval(function () {
-        $.getJSON("public/img/Background/background.json", function (data) {
+        $.getJSON("./public/img/Background/background.json", function (data) {
             var index = Math.floor(Math.random() * data.length);
             var imageUrl = data[index].url;
             $('.intro.image-background').css({

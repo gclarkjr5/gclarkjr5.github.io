@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var http = require('http');
 var server = http.createServer(app);
-var port = process.env.PORT || 5555;
+var port = process.env.PORT || 3333;
 
 // Serving up Static files for home page and March Madness separately
 app.use('/public', express.static(__dirname + '/public'));
