@@ -127,6 +127,12 @@
     .w3-container > h1 {
         color: white;
     }
+    
+    .languages {
+        font-family: Arial;
+        font-size: 12px;
+        color: teal;
+    }
     /*
     ul {
         list-style: none;
@@ -156,12 +162,12 @@
                         <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Engineer & Soccer Enthusiast</p>
                         <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Houston, TX</p>
                         <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>gclarkjr5@gmail.com</p>
-                        <p><i class="fa fa-linkedin-square fa-fw w3-margin-right w3-large w3-text-teal"></i>https://www.linkedin.com/in/gclarkjr5</p>
-                        <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>gclarkjr5.github.io</p>
+                        <p><i class="fa fa-linkedin-square fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/gclarkjr5">https://www.linkedin.com/in/gclarkjr5</a></p>
+                        <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="gclarkjr5.github.io">gclarkjr5.github.io</a></p>
                         <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(717) 798-6916</p>
                         <hr>
 
-                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Technical Skills</b></p>
+                        <p class="w3-large"><b><i class="fa fa-cogs fa-fw w3-margin-right w3-text-teal"></i>Technical Skills</b></p>
                         <p>Equipment Health Analysis</p>
                         <div class="w3-progress-container w3-round-xlarge w3-small">
                             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
@@ -216,7 +222,7 @@
                         </div>
                         <br>
 
-                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Programming Languages</b></p>
+                        <p class="w3-large"><b><i class="fa fa-code fa-fw w3-margin-right w3-text-teal"></i>Programming Languages</b></p>
                         <p>R</p>
                         <div class="w3-progress-container w3-round-xlarge w3-small">
                             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:80%">
@@ -242,7 +248,7 @@
                             </div>
                         </div>
 
-                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Interests</b></p>
+                        <p class="w3-large"><b><i class="fa fa-plane fa-fw w3-margin-right w3-text-teal"></i>Interests</b></p>
                         <p>Soccer</p>
                         <div class="w3-progress-container w3-round-xlarge w3-small">
                             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
@@ -296,7 +302,7 @@
 
                         <p>Establish, build, and manage an Equipment Health Monitoring (EHM) platform for internal &amp; external customers</p>
                         <hr>
-                        <ul>
+                        <ul id=PRE>
                             <li>
                                 Led project requirements captures to realize value streams for marine applications. </br>
                                 Assignments included Norway, Germany, and UK.
@@ -317,6 +323,9 @@
                                     <li>
                                         Large &amp; Medium Diesel Engines, Gas Turbines, Electric Drives,</br>
                                         Anchor Handling and Tug Systems
+                                    </li>
+                                    <li>
+                                        Conducted exploratory analysis of data, used data to build models of healthy equipment behavior & implemented best-fit predictive techniques for failure detection.
                                     </li>
                                 </ul>
                             </li>
@@ -344,25 +353,19 @@
                                 Web Development:
                                 <ul>
                                     <li>
-                                        Created a tool that queried large amounts of time-series data, pivoted the results and then passed them to the front-end via websockets, and tossed them into a CSV for downstream engineering tool compatibility. Wrapped tool into a self-contained application. </br>
-                                        HTML, CSS, JavaScript, NodeJS, Socket.io, Electron
+                                        Created a tool that queried large amounts of time-series data, pivoted the results, passed them to the front-end via websockets, and tossed them into a CSV for downstream engineering tool compatibility. Wrapped it into an application. </br>
+                                        <span class="languages"><b>HTML, CSS, JavaScript, SQL, NodeJS, Socket.io, Electron</b></span>
                                     </li>
                                     <li>
-                                        Created a dashboard that visualized the performance of an EHM service's analytics on a monthly basis. A user could click on a month of interest to drilldown into it's breakdown. </br>
-                                        HTML, CSS, JavaScript, NodeJS, R, Socket.io, Highcharts
+                                        Created a dashboard that visualized the performance of an EHM service's analytics on a monthly basis. Interactivity built into dashboard for users to drilldown and see a breakdown on areas of interest. </br>
+                                        <span class="languages"><b>HTML, CSS, JavaScript, SQL, NodeJS, R, Socket.io, Highcharts</b></span>
                                     </li>
                                     <li>
-                                        Created a dashboard that visualized metrics regarding data ingestion & processing, and volume of notifications sent to customer. </br>
-                                        HTML, CSS, JavaScript, NodeJS, R, Socket.io, Highcharts
+                                        Created a dashboard that visualized metrics regarding data ingestion, data processing, and volume of notification traffic to customer. </br>
+                                        <span class="languages"><b>HTML, CSS, JavaScript, SQL, NodeJS, R, Socket.io, Highcharts</b></span>
                                     </li>
                                 </ul>
                             </li>
-                            <!--
-                            <li>
-                                Lead several fun office-wide activities to improve office cohesiveness &amp; uplift spirits
-                            </li>
--->
-
                         </ul>
                     </div>
                     <div class="w3-container">
@@ -375,7 +378,7 @@
                         <hr>
                         <ul>
                             <li>
-                                Review and communicate anomalies detected by predictive analytics to customers
+                                Reviewed and communicated equipment failures detected by predictive analytics to customers
                                 <ul>
                                     <li>
                                         Intense Trend and Data Analysis mixed with Engineering Judgement
@@ -383,11 +386,11 @@
                                 </ul>
                             </li>
                             <li>
-                                Daily collaboration on high-value anomalies w/ service team and </br>
-                                direct input to development team for future analytics
+                                Daily team collaboration on high-value failures. Output of discussions became</br>
+                                direct inputs to development team for future analytics.
                             </li>
                             <li>
-                                Stepped up as "Go To" Service Engineer in less than 6 months
+                                Assumed role as Lead Service Engineer in less than 6 months
                                 <ul>
                                     <li>
                                         Lead and coordinated weekly value-driven discussions with customer
@@ -396,35 +399,28 @@
                                         Volunteered for internal and external audits
                                     </li>
                                     <li>
-                                        Deliver business presentations to internal and external executives
+                                        Delivered business presentations to internal and external <i>Executives</i>
                                     </li>
                                     <li>
-                                        Selected on solo travel to UK for integration of new customer business unit
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                R programming
-                                <ul>
-                                    <li>
-                                        Automate daily procedures: e.g sending daily summary emails
-                                    </li>
-                                    <li>
-                                        Visualize key service metrics and KPIs
-                                    </li>
-                                    <li>
-                                        Integrated unused data to promote and defend Service Engineering
-                                    </li>
-                                    <li>
-                                        Query data from databases and transform it into a useable generic JSON object for web
+                                        Selected on solo travel to UK to perform requirements capture for integration of new customer business unit
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                NodeJS
+                                Automation & R:
                                 <ul>
                                     <li>
-                                        Developed dashboards and deployed to internal web servers for internal company access
+                                        Automated manual detection of data ingestion & processing performance issues into reports with color-coding. </br>
+                                        Created metrics based on performance that became KPIs and discussion points for manager.
+                                    </li>
+                                    <li>
+                                        Automated daily summary emails to customer - saved team 10% of time.
+                                    </li>
+                                    <li>
+                                        Collected all Service Engineering KPIs into a web-dashboard.
+                                    </li>
+                                    <li>
+                                        Developed metrics from unused data to promote and defend Service Engineering
                                     </li>
                                 </ul>
                             </li>
@@ -463,22 +459,33 @@
                 <div class="w3-container w3-card-2 w3-white">
                     <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
                     <div class="w3-container">
-                        <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-                        <p>Web Development! All I need to know in one place</p>
+                        <h5 class="w3-opacity"><b>The Internet</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - Present</h6>
+                        <p><a href="https://www.datacamp.com/">Data Camp</a></p>
+                        <p><a href="https://www.codeschool.com/">CodeSchool</a></p>
+                        <p><a href="https://www.codecademy.com/">Codecademy</a></p>
+                        <p><a href="https://www.kaggle.com/">Kaggle</a></p>
+                        <p><a href="https://bigdatauniversity.com/">Big Data University</a></p>
+                        <p><a href="https://www.pluralsight.com/">Pluralsight</a></p>
                         <hr>
                     </div>
                     <div class="w3-container">
-                        <h5 class="w3-opacity"><b>London Business School</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-                        <p>Master Degree</p>
+                        <h5 class="w3-opacity"><b>Howard University</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2009 - 2013</h6>
+                        <h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Washington, D.C</h6>
+                        <p>Bachelor's of Science in Mechanical Engineering</p>
+                        <ul>
+                            <li>
+                                Focus in Energy and Power Plant design
+                            </li>
+                        </ul>
                         <hr>
                     </div>
                     <div class="w3-container">
-                        <h5 class="w3-opacity"><b>School of Coding</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-                        <p>Bachelor Degree</p>
-                        <br>
+                        <h5 class="w3-opacity"><b>West Virginia University</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 - 2009</h6>
+                        <h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Morgantown, WV</h6>
+                        <hr>
                     </div>
                 </div>
 
