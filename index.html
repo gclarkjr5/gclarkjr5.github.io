@@ -28,12 +28,20 @@
 
 
 
+
+
     <style>
-        #map {
-            height: 0%;
-            width: 0%
+        .affix {
+            top: 0;
+            width: 100%;
+        }
+        
+        .affix + .container .clearfix {
+            padding-top: 52px;
         }
     </style>
+
+
 
 
 
@@ -56,7 +64,7 @@
         </div><a href="#about" class="icon faa-float animated scroll-to"><i class="fa fa-angle-double-down"></i></a>
     </section>
     <!-- navbar-->
-    <header class="header">
+    <header class="header" data-spy="affix" data-offset-top="770">
         <div class="sticky-wrapper">
             <div role="navigation" class="navbar navbar-default">
                 <div class="container">
@@ -92,15 +100,16 @@
             <div class="row margin-bottom">
                 <div class="col-md-6 margin-bottom">
                     <h2 class="heading">Who is Gary?</h2>
-                    <p class="lead">An engineeringly-geeky-funhaving-social-soccerplaying-millenial who enjoys the subtle things.</p>
+                    <p class="lead">An engineeringly-geeky-funhaving-social-soccerplayer who enjoys the subtle things.</p>
                     <p>Hi everyone! As you already know my name, I'll jump right into the stuff we're all more interested in. Born and bred on the East Coast (Harrisburg, PA), I've always enjoyed 3 things:</p>
                     <ol>
                         <li>Soccer.. I love sports, but soccer is my passion. I've played competitvely at multiple levels.</li>
                         <li>Smiles... I really enjoy having social time to share laughs with close friends and loved ones. Preferably over some local craft brews I've never tried before.</li>
-                        <li>Asking why... Since I can remember, I've never stopped being curious to the world around me. Always learning about how things work, solving problems, and challenging the status quo.</li>
+                        <li>Asking why... Since I can remember, I've never stopped being curious about the world around me. Always learning about how things work, solving problems, and challenging the status quo.</li>
                     </ol>
-                    <p>I've never looked at myself as fitting into a particular category. I graduated with a B.S. in Mechanical Engineering, but my job has attracted me to the Data &amp; Computer Science world. I find it fun that I have an opportunity to mix them together and see what sort of insights come out of applying Big Data analytics on machinery and then visualizing them in a nice dashboard for attractive presentation.</p>
-                    <p>Lastly, if I had all the free time in the world, I would constantly do these... Enjoy! </p>
+                    <p>I graduated with a B.S. in Mechanical Engineering, but my job has attracted me to the Data &amp; Computer Science world. I find it fun that I have an opportunity to mix them together and see what sort of insights come out of applying data analytics on machinery and then visualizing them in a nice dashboard for an attractive presentation.</p>
+                    <p>While leading and collaborating on many technical projects, I have continued to grow in soft skill areas of communication and customer relations. I have been fortunate enough to receive travel opportunities to the UK, Norway, and Germany to meet with customers and establish requirements for future projects. Still one of my most cherished opportunities (and somewhat intimidating) was when I was less than 6 months into my first ever job and asked to present the business to our incoming CEO (Don't worry, all went well). </p>
+                    <p>Thanks for reading a bit about me as I hope it was interesting. Please peruse and feel free to contact me... Enjoy! </p>
                 </div>
                 <div class="col-md-6 margin-bottom">
                     <img src="./public/img/Coffee_Shop_LA.JPG" class="img-responsive">
@@ -152,15 +161,15 @@
                         <div class="col-sm-3">
                             <div class="box box-services">
                                 <div class="icon"><i class="fa fa-line-chart"></i></div>
-                                <h4 class="heading">Data Science &amp; Modelling</h4>
-                                <p>3 years experience analyzing anomalous behavior in data, using machine learning for predictive modelling, and recommending best fit solutions to meet customer requirements.</p>
+                                <h4 class="heading">Data Science &amp; Modeling</h4>
+                                <p>3 years experience combining data science with engineering principles to create analytics that actively search for equipment failures.</p>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="box box-services">
-                                <div class="icon"><i class="ti-desktop"></i></div>
+                                <div class="icon"><i class="fa fa-desktop"></i></div>
                                 <h4 class="heading">Web Design &amp; Solutions</h4>
-                                <p>Serious interest in helping those that cannot afford expensive marketing techniques by designing web solutions that express the business. </p>
+                                <p>Serious interest in helping those that cannot afford expensive marketing techniques by designing web solutions that express the business.</p>
                             </div>
                         </div>
                     </div>
@@ -241,6 +250,13 @@
         </div>
     </section>
     <!-- map-->
+<!--
+    <section id="mapper">
+        <div id="map" class="container clearfix">
+        </div>
+    </section>
+-->
+
     <section id="contact">
         <div class="container clearfix">
             <div class="row">
@@ -263,7 +279,6 @@
             </div>
         </div>
     </section>
-    <section id="map"></section>
 
     <footer>
         <div class="container">
@@ -286,41 +301,85 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="public/js/jquery.sticky.js"></script>
     <script src="public/js/jquery.scrollTo.min.js"></script>
+
     <!--    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false"></script>-->
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <!--    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
 
-    <script src="public/js/gmaps.js"></script>
+    <!--    <script src="public/js/gmaps.js"></script>-->
     <script src="public/js/jquery.cookie.js"></script>
-    <script src="public/js/front.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-
-    <!--
-    <script>
-        (function (b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-                function () {
-                    (b[l].q = b[l].q || []).push(arguments)
-                });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = '//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-        }(window, document, 'script', 'ga'));
-        ga('create', 'UA-XXXXX-X');
-        ga('send', 'pageview');
-    </script>
--->
+    <!--    <script src="public/js/front.js"></script>-->
 
     <!--Custom.js script-->
     <script src="./public/js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: 29.758,
+                lng: -95.3635808
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 6,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+                title: "Home"
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG9Ic0JYMUcE2h69XmBSbnzaWWw3vD12U&callback=initMap"></script>
 
     <script>
         $(document).ready(function () {
             backgroundImage();
+            var dimensionsById = [];
+            $('section').each(function () {
+                var dim = {
+                    id: this.id,
+                    height: $(this).height()
+                }
+                dimensionsById.push(dim)
+            });
+            console.log($('header').height())
+
+            _.forEach(dimensionsById, function (value, key) {
+                    $('a[href="#' + value.id + '"]').click(function () {
+                        $("html, body").animate({
+                            scrollTop: $('#' + value.id).offset().top
+                        }, 3000 * (1 / key));
+                    })
+                })
+                //            console.log(dimensionsByID)
+                //            $('section').each(function() {
+                //                $('a[href="#' + this.id + '"]').click(function() {
+                //            })
+                //            })
+
+
+
+            //            $.each(dimensionsByID, function(x) {
+            //                $("html, body").animate({ scrollTop: $('#' + x).offset().top }, 1000);
+            //            })
+
+            //            $.each('section', function() {
+            //                console.log($(this).height))
+            //            })
+            //            $.each(dimensionsByID, function(x) {
+            //                alert(x.id)
+            //            })
+            //            $('a[href="#contact"]').click(function() {
+            //                alert("Hey")
+            //            })
+            //            $('#navigation').children('li').each(function() {
+            //                console.log(this.href)
+            //            })
+            ////            console.log($('#navigation').children('li').text())
+            //            $("html, body").animate({ scrollTop: $('#about').offset().top }, 3000);
         });
     </script>
+
 
 </body>
 
