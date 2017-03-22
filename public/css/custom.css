@@ -26,3 +26,44 @@
     #contact .col-md-6 {
         text-align: center;
     }
+    
+    .scrolloff {
+        pointer-events: none;
+    }
+    
+    .nav-wrapper {
+        height: 80px;
+    }
+    
+    .nav-wrapper header {
+        height: 80px;
+        padding: 0 40px;
+        line-height: 80px;
+        color: #FFF;
+    }
+    
+    .nav-wrapper header.fixed {
+        position: fixed;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    /*    #portfolio .box {*/
+    /*        max-height: 250px;*/
+    /*    }*/
+    
+    #portfolio img {
+        width: 400px;
+        height: 350px;
+    }
+    
+    #portfolio video {
+        width: 375px;
+        height: 350px;
+    }
+    
+    #about img {
+        padding-top: 20px;
+        max-height: 400px;
+    }
