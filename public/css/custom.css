@@ -49,6 +49,10 @@
         left: 0;
         right: 0;
     }
+    
+    #myModal {
+        z-index: 10001;
+    }
     /*    #portfolio .box {*/
     /*        max-height: 250px;*/
     /*    }*/

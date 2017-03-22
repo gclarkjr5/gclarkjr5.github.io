@@ -40,7 +40,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-12">
                         <h1><span class="bold">Gary<br/>Clark Jr.</span></h1>
-                        <p class="roboto"> <font size="5"><i>Mechanical &amp; Data Engineering Hybrid who enjoys turning what appears to be useless data, into meaningful insights that convey facts and open minds.</i></font></p>
+                        <p class="roboto"> <font size="5"><i>Mechanical &amp; Data Engineering Hybrid who enjoys combining Data Science, Software & Web Development to express insights and open minds.</i></font></p>
                         <p><a href="http://gclarkjr5.github.io/" class="external">gclarkjr5.github.io</a></p>
                     </div>
                 </div>
@@ -53,7 +53,6 @@
             <div class="sticky-wrapper">
                 <div role="navigation" class="navbar navbar-default">
                     <div class="container">
-
                         <div class="navbar-header">
                             <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                             <a href="#intro" class="navbar-brand scroll-to"><span class="glyphicon glyphicon-fire"></span> Gary Clark</a>
@@ -65,6 +64,7 @@
                                 <li><a href="#services">Services</a></li>
                                 <li><a href="#portfolio">Portfolio</a></li>
                                 <li><a href="#resume">Resume</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
             <div class="row margin-bottom">
                 <div class="col-md-6 margin-bottom">
                     <h2 class="heading">Who is Gary?</h2>
-                    <p class="lead">An engineeringly-geeky-funhaving-social-soccerplayer who enjoys the subtle things.</p>
+<!--                    <p class="lead">Engineer, Data Scientist who enjoys the subtle things.</p>-->
                     <p>Hi everyone! As you already know my name, I'll jump right into the stuff we're all more interested in. Born and bred on the East Coast (Harrisburg, PA), I've always enjoyed 3 things:</p>
                     <ol>
                         <li>Soccer.. I love sports, but soccer is my passion. I've played competitvely at multiple levels.</li>
@@ -157,7 +157,6 @@
         </div>
     </section>
     <!-- portfolio-->
-    <!-- THE PLACES IVE BEEN, PICS OF ME IN THOSE PLACES OR JUST THE PLACES THEMSELVES, ETC. -->
     <section id="portfolio" class="no-padding-bottom">
         <div class="container">
             <div class="row">
@@ -190,12 +189,12 @@
                 </div>
                 <div class="col-sm-4 col-md-3">
                     <div class="box">
-                        <a href="#" title=""><img src="./public/img/Portfolio/Toronto.JPG" alt="" class="img-responsive"></a>
+                        <img src="./public/img/Portfolio/Aalesund.JPG" alt="" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
                     <div class="box">
-                        <a href="#" title=""><img src="./public/img/Portfolio/EuroTrip.JPG" alt="" class="img-responsive"></a>
+                        <img src="./public/img/Portfolio/EuroTrip.JPG" alt="" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
@@ -228,11 +227,45 @@
                     <div class="row">
                         <a class="btn btn-default btn-lg disabled">Download</a>
                     </div>
+                    <div class="row">
+                        <a id="appsBtn" class="btn btn-default btn-lg">Apps</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- map-->
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Web Development</h4>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li>
+                            <a href="http://marchmadness2017.azurewebsites.net">2017 March Madness Bracket Challenge</a>
+                        </li>
+                        <li>
+                            <a href="./Highcharts/hcharts.html">Racial Homicide Rates</a>
+                        </li>
+                        <li>
+                            <a href="./MarchMadness/index.html">2016 March Madness Bracket Challenge</a>
+                        </li>
+                        
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <section id="mapper">
         <div id="map" class="container clearfix">
@@ -337,12 +370,6 @@
                 $('#map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
             });
 
-            //            $('nav').affix({
-            //                offset: {
-            //                    top: $('nav').offset().top
-            //                }
-            //            });
-
             var $navBar = $('header');
 
             // find original navigation bar position
@@ -387,40 +414,11 @@
                 })
             });
 
-            _.forEach(data.data, function (obj) {
-                var picture = obj.images.low_resolution.url
-                var link = obj.link
-                var title = obj.caption.text
-                if (obj.type == "video") {
-                    var pic = obj.videos.low_resolution.url
+            $('#appsBtn').click(function () {
+                //                alert('Hey');
+                $('#myModal').modal('show');
+            })
 
-                    $('#portfolio > div.container-fluid > div').append('<div class="col-sm-4 col-md-3"> \
-                    <div class="box"> \
-                        <a href="' + link + '" title="' + title + '"> \
-                            <video id="my-video" class="video-js" controls preload="auto" width="320" height="320" poster="' + picture + '" data-setup="{}"> \
-                    <source src="' + pic + '" type="video/mp4"> \
-                </video> \
-                        </a> \
-                    </div> \
-                </div>')
-
-                    //                console.log(pic)
-                    //                                    <source src="MY_VIDEO.webm" type="video/webm"> \
-
-                } else {
-                    var pic = obj.images.low_resolution.url
-
-                    $('#portfolio > div.container-fluid > div').append('<div class="col-sm-4 col-md-3"> \
-                                                                    <div class="box"> \
-                                                                        <a href="' + link + '" title="' + title + '"><img src="' + pic + '" alt="" class="img-responsive"></a> \
-                                                                    </div> \
-                                                                </div>')
-                        //                console.log(pic)
-                }
-
-                //            console.log(obj.type)
-                //        })
-            });
 
         });
     </script>
