@@ -1,6 +1,6 @@
     /* your styles go here */
-    
-    .col-md-6 .img-responsive {
+    @media screen and (min-width: 40.5em) {
+   .col-md-6 .img-responsive {
         -ms-transform: rotate(90deg);
         /*IE 9*/
         -webkit-transform: rotate(90deg);
@@ -11,6 +11,18 @@
         height: auto;
         width: auto;
     }
+}
+    /*.col-md-6 .img-responsive {
+        -ms-transform: rotate(90deg);
+        /*IE 9*/
+        /*-webkit-transform: rotate(90deg);*/
+        /*Chrome, Safari, Opera*/
+        /*transform: rotate(90deg);
+        margin-top: 60px;
+        margin-bottom: 30px;
+        height: auto;
+        width: auto;
+    }*/
     
     .btn-lg {
         background-color: transparent;
