@@ -87,9 +87,28 @@ body.modal-open {
     text-align: center;
 }
 
+#home > div:nth-child(1) {
+        white-space:normal; 
+        top:25%; 
+        text-align: center;
+    }
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
+    }
+
+    body > div.bgimg-2.w3-display-container.w3-opacity-min > div {
+        top: 80%;
+    }
+    body > div.bgimg-3.w3-display-container.w3-opacity-min > div {
+        top: 80%;
+    }
+    body > div.bgimg-4.w3-display-container.w3-opacity-min > div {
+        top: 80%;
+    }
+    #home > div:nth-child(1) {
+        top: 15%;
     }
 }
