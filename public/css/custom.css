@@ -64,7 +64,7 @@ body.modal-open {
     color:black !important;
 }
 
-img{
+#portfolio img{
 	width: 100%;
 	min-height: 100%;
 }
