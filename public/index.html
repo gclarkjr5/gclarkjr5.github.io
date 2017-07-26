@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<title>Gary Clark - Creative Thinking</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+<link rel="stylesheet" href="./css/custom.css">
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()"
+                title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#places" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PLACES</a>
+            <a href="#resume" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-file-text"></i> RESUME</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#places" class="w3-bar-item w3-button" onclick="toggleFunction()">PLACES</a>
+            <a href="#resume" class="w3-bar-item w3-button" onclick="toggleFunction()">RESUME</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap; top:25%">
+            <span class="w3-center w3-animate-opacity" style="color:white; font-size: 1.25rem;">Mechanical &amp; Data Engineering Hybrid who enjoys combining Data Science, Software & Web Development to express insights and open minds.</span>
+        </div>
+        <div class="w3-display-middle" style="white-space:nowrap; top:35%">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">GARY <span class="w3-hide-small">CLARK</span>            JR.<br/></span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <!--<p class="w3-center"><em>I love photography</em></p>-->
+        <p>Hi everyone! As you already know my name, I'll jump right into the stuff we're all more interested in. Born and bred
+            on the East Coast (Harrisburg, PA), I've always enjoyed 3 things:</p>
+        <ol>
+            <li>Soccer.. I love sports, but soccer is my passion. I've played competitvely at multiple levels.</li>
+            <li>Smiles... I really enjoy having social time to share laughs with close friends and loved ones. Preferably over
+                some local craft brews I've never tried before.</li>
+            <li>Asking why... Since I can remember, I've never stopped being curious about the world around me. Always learning
+                about how things work, solving problems, and challenging the status quo.</li>
+        </ol>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Gary Lewis Clark Jr.</b></p><br>
+                <img src="./img/superbowl.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p>I graduated with a B.S. in Mechanical Engineering, but my job has attracted me to the Data &amp; Computer
+                    Science world. I find it fun that I have an opportunity to mix them together and see what sort of insights
+                    can be derived and then visualizing them in a nice dashboard for an attractive presentation.</p>
+                <p>I have been fortunate enough to receive travel opportunities (traveling is now a new hobby lol) to the UK,
+                    Norway, and Germany to meet with customers and establish requirements for future projects. Still one
+                    of my most cherished opportunities (and somewhat intimidating) was when I was less than 6 months into
+                    my first ever job and asked to present the business to our incoming CEO (Don't worry, all went well).
+                </p>
+                <p>Thanks for reading a bit about me as I hope it was interesting. Please peruse and feel free to contact me...
+                    Enjoy!
+                </p>
+            </div>
+        </div>
+        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+        <p class="w3-wide"><i class="fa fa-futbol-o"></i>Soccer</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-smile-o"></i>Making People Smile</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-cutlery"></i>Finding Good Restaurants</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+        </div>
+    </div>
+
+    <!--<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">14+</span><br> Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">55+</span><br> Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">89+</span><br> Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">150+</span><br> Meetings
+        </div>
+    </div>-->
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">PLACES</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <div class="slider-for">
+            <div class="item">
+                <img src="./img/Aalesund.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/Barbados.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/EuroTrip.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/Heineken.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/London.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/Toronto.jpg" alt="image" draggable="false" />
+            </div>
+        </div>
+
+        <div class="slider-nav">
+            <div class="item">
+                <img src="./img/Aalesund.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/Barbados.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/EuroTrip.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/Heineken.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/London.jpg" alt="image" draggable="false" />
+            </div>
+            <div class="item">
+                <img src="./img/Toronto.jpg" alt="image" draggable="false" />
+            </div>
+        </div>
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">RESUM&#201</span>
+        </div>
+    </div>
+
+    <!-- Container (Resume Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="resume">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="heading">Resum&#233</h2>
+                <div class="row">
+                    <a href="../Resume/resume.html" class="w3-button w3-padding-large w3-light-grey">Web Resum&#233</a>
+                </div>
+                <div class="row">
+                    <a class="w3-button w3-padding-large w3-light-grey w3-disabled">Download</a>
+                </div>
+                <div class="row">
+                    <a id="appsBtn" class="w3-button w3-padding-large w3-light-grey">Apps</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal-->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">-->
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Web Development</h4>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li>
+                            <a href="http://marchmadness-2017.herokuapp.com/">2017 March Madness Bracket Challenge</a>
+                        </li>
+                        <li>
+                            <a href="../Highcharts/hcharts.html">Racial Homicide Rates</a>
+                        </li>
+                        <li>
+                            <a href="../MarchMadness/index.html">2016 March Madness Bracket Challenge</a>
+                        </li>
+                        <li>
+                            <a href="http://goodeatingcollege.herokuapp.com/">Good College Eating</a>
+                        </li>
+
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fourth Parallax Image with Portfolio Text -->
+    <div class="bgimg-4 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">Currently Work @ Rolls-Royce Digital</h3>
+        <!--<p class="w3-center"><em>I'd love your feedback!</em></p>-->
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <!-- Add Google Maps -->
+                <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <p>
+                        Feel free to contact me whenever. Preferably via email, but I am available through linkedin as well. My github accont is
+                        included if you have an interesting idea you would like to share or if you want to collaborate on
+                        a project.
+                    </p>
+                    <h3>PLEASE NO SPAM!!</h3>
+                    <p class="social">
+                        <a href="mailto:gclarkjr5@gmail.com" class="email"><i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i></a>
+                        <a href="https://www.linkedin.com/in/gclarkjr5" title="" class="linkedin"><i class="fa fa-linkedin fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i></a>
+                        <a href="https://github.com/gclarkjr5/" title="" class="github"><i class="fa fa-github fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <!--<div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>-->
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <!-- Add Google Maps -->
+    <script>
+        function myMap() {
+            myCenter = new google.maps.LatLng(29.758, -95.3635808);
+            var mapOptions = {
+                center: myCenter,
+                zoom: 9, scrollwheel: false, draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
+            marker.setMap(map);
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        $('#appsBtn').click(function () {
+            // e.preventDefault();
+            $('#myModal').modal('show');
+        });
+
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            fade: true,
+            asNavFor: '.slider-nav',
+            autoplay: true
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: false,
+            centerMode: true,
+            focusOnSelect: true
+
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG9Ic0JYMUcE2h69XmBSbnzaWWw3vD12U&callback=myMap"></script>
+
+</body>
+
+</html>

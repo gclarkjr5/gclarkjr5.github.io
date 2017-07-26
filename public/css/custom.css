@@ -1,85 +1,94 @@
-    /* your styles go here */
-    @media screen and (min-width: 40.5em) {
-   .col-md-6 .img-responsive {
-        -ms-transform: rotate(90deg);
-        /*IE 9*/
-        -webkit-transform: rotate(90deg);
-        /*Chrome, Safari, Opera*/
-        transform: rotate(90deg);
-        margin-top: 60px;
-        margin-bottom: 30px;
-        height: auto;
-        width: auto;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #7d7d7d;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('../img/arsenal-fc-logo.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("../img/barcelona-fc-logo.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Resume) */
+.bgimg-3 {
+    background-image: url("../img/carolina-panthers.jpg");
+    min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+    background-image: url("../img/spurs.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#home > div:nth-child(1) > span {
+    font-size: 1.5rem;
+}
+
+.col-md-12 {
+    text-align: center;
+}
+
+.col-md-12 > div * {
+    border-style: solid;
+}
+
+#resume > div > div > div:nth-child(3) {
+    padding: 1.2rem;
+}
+
+body.modal-open {
+    overflow: visible;
+}
+
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
+}
+
+img{
+	width: 100%;
+	min-height: 100%;
+}
+
+.slider-nav{
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+
+.slider-for{
+	width: 500px;
+	height: auto;
+	margin: 30px auto 1px;
+	overflow: hidden;
+}
+
+.slider-nav > item *{
+    display: inline-block;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
     }
 }
-    /*.col-md-6 .img-responsive {
-        -ms-transform: rotate(90deg);
-        /*IE 9*/
-        /*-webkit-transform: rotate(90deg);*/
-        /*Chrome, Safari, Opera*/
-        /*transform: rotate(90deg);
-        margin-top: 60px;
-        margin-bottom: 30px;
-        height: auto;
-        width: auto;
-    }*/
-    
-    .btn-lg {
-        background-color: transparent;
-        align-content: center;
-        border-width: medium;
-    }
-    
-    #resume .col-md-12 > .row {
-        text-align: center;
-        padding: 10px;
-    }
-    
-    #contact .col-md-6 {
-        text-align: center;
-    }
-    
-    .scrolloff {
-        pointer-events: none;
-    }
-    
-    .nav-wrapper {
-        height: 80px;
-    }
-    
-    .nav-wrapper header {
-        height: 80px;
-        padding: 0 40px;
-        line-height: 80px;
-        color: #FFF;
-    }
-    
-    .nav-wrapper header.fixed {
-        position: fixed;
-        z-index: 10000;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
-    
-    #myModal {
-        z-index: 10001;
-    }
-    /*    #portfolio .box {*/
-    /*        max-height: 250px;*/
-    /*    }*/
-    
-    #portfolio img {
-        width: 400px;
-        height: 350px;
-    }
-    
-    #portfolio video {
-        width: 375px;
-        height: 350px;
-    }
-    
-    #about img {
-        padding-top: 20px;
-        max-height: 400px;
-    }
